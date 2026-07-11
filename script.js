@@ -331,13 +331,7 @@ const SITE = {
       "meta": "Asset-based purchase \u00b7 Prescott, AZ"
     }
   ],
-  "confetti": [
-    "#37704f",
-    "#8fbf9f",
-    "#e5f0e8",
-    "#d4af37",
-    "#253630"
-  ]
+  "confetti": ["#10b981", "#34d399", "#f5b942", "#ffffff", "#1a2440"]
 };
 
 const ICONS = {
