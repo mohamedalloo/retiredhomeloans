@@ -23,3 +23,7 @@
 - [Asset-based loans explained](https://adaptlend.com/asset-based-loans.html)
 - [Asset depletion calculator](https://adaptlend.com/asset-depletion-calculator.html)
 - [Refinancing in retirement](https://retiredrefi.com/)
+- [Asset depletion loan guide](https://lumolend.com/guides/asset-depletion-loans/) — LumoLend, an Honest Casa company
+- [HELOC vs. cash-out refinance guide](https://lumolend.com/guides/heloc-vs-cash-out-refi/) — LumoLend
+- [Free HELOC calculator](https://lumolend.com/tools/heloc-calculator/) — LumoLend
+- [LumoLend](https://lumolend.com/) — price purchase, refinance, and HELOC scenarios with live indicative rates; free calculators and 40+ mortgage guides
