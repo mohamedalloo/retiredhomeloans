@@ -19,46 +19,105 @@
   <meta name="twitter:card" content="summary">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "FinancialService",
-        "@id": "https://retiredhomeloans.com/#org",
-        "name": "RetiredHomeLoans",
-        "url": "https://retiredhomeloans.com/",
-        "parentOrganization": { "@type": "Organization", "name": "AdaptLend", "url": "https://adaptlend.com/", "parentOrganization": { "@type": "Organization", "name": "Honest Casa LLC", "url": "https://honestcasa.com/", "identifier": { "@type": "PropertyValue", "name": "NMLS ID", "value": "1566096" } } },
-        "description": "RetiredHomeLoans matches retired homebuyers with licensed specialists who close purchase mortgages documented on assets instead of paychecks: downsizing, relocating near family, and second homes — asset depletion, Social Security gross-up, and buy-before-you-sell strategies.",
-        "areaServed": "US",
-        "knowsAbout": [
-          "Home loans for retirees",
-          "Asset depletion purchase mortgages",
-          "Buying before selling in retirement",
-          "Social Security income gross-up",
-          "Downsizing mortgages"
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FinancialService",
+      "@id": "https://retiredhomeloans.com/#org",
+      "name": "RetiredHomeLoans",
+      "url": "https://retiredhomeloans.com/",
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://adaptlend.com/#org",
+        "name": "AdaptLend",
+        "url": "https://adaptlend.com/"
       },
-      {
-        "@type": "WebSite",
-        "@id": "https://retiredhomeloans.com/#website",
-        "url": "https://retiredhomeloans.com/",
-        "name": "RetiredHomeLoans",
-        "publisher": { "@id": "https://retiredhomeloans.com/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "Can I buy a house in retirement with no job?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Asset depletion programs convert savings and investment balances into qualifying income, and Social Security, pensions, and regular distributions count as income too. Lenders may never deny a loan based on age." } },
-          { "@type": "Question", "name": "Do I have to sell my current house before buying the next one?", "acceptedAnswer": { "@type": "Answer", "text": "Not necessarily. Because asset-based programs qualify you on savings rather than a debt-to-income squeeze, many retirees buy the new home first and sell afterward — skipping the double move and the pressure to accept a lowball offer." } },
-          { "@type": "Question", "name": "Does Social Security count as income when buying a home?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and because it isn't fully taxed, many lenders count it at up to 125% of the check amount. Pensions, annuities, and regular retirement-account distributions count as well." } },
-          { "@type": "Question", "name": "Can a 75-year-old get a 30-year mortgage?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Equal Credit Opportunity Act prohibits lenders from denying or shortening a loan term based on age. A 30-year mortgage at 75 is legal and common." } },
-          { "@type": "Question", "name": "How much down payment do retirees need?", "acceptedAnswer": { "@type": "Answer", "text": "Asset-based purchase programs commonly want 20–30% down. Retirees with strong Social Security or pension income who qualify conventionally can put down much less. Home-sale proceeds routinely cover it." } },
-          { "@type": "Question", "name": "Will checking my options hurt my credit?", "acceptedAnswer": { "@type": "Answer", "text": "No. These questions never touch your credit report. A credit check only happens later, if and when you choose to move forward with a licensed specialist." } }
-        ]
+      "description": "RetiredHomeLoans matches retired homebuyers with licensed specialists who close purchase mortgages documented on assets instead of paychecks: downsizing, relocating near family, and second homes — asset depletion, Social Security gross-up, and buy-before-you-sell strategies.",
+      "areaServed": "US",
+      "knowsAbout": [
+        "Home loans for retirees",
+        "Asset depletion purchase mortgages",
+        "Buying before selling in retirement",
+        "Social Security income gross-up",
+        "Downsizing mortgages"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "NMLS ID",
+          "value": "1566096"
+        }
+      ],
+      "sameAs": [
+        "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1566096"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://retiredhomeloans.com/#website",
+      "url": "https://retiredhomeloans.com/",
+      "name": "RetiredHomeLoans",
+      "publisher": {
+        "@id": "https://retiredhomeloans.com/#org"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I buy a house in retirement with no job?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Asset depletion programs convert savings and investment balances into qualifying income, and Social Security, pensions, and regular distributions count as income too. Lenders may never deny a loan based on age."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I have to sell my current house before buying the next one?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Because asset-based programs qualify you on savings rather than a debt-to-income squeeze, many retirees buy the new home first and sell afterward — skipping the double move and the pressure to accept a lowball offer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Social Security count as income when buying a home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and because it isn't fully taxed, many lenders count it at up to 125% of the check amount. Pensions, annuities, and regular retirement-account distributions count as well."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a 75-year-old get a 30-year mortgage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Equal Credit Opportunity Act prohibits lenders from denying or shortening a loan term based on age. A 30-year mortgage at 75 is legal and common."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much down payment do retirees need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Asset-based purchase programs commonly want 20–30% down. Retirees with strong Social Security or pension income who qualify conventionally can put down much less. Home-sale proceeds routinely cover it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will checking my options hurt my credit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. These questions never touch your credit report. A credit check only happens later, if and when you choose to move forward with a licensed specialist."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
